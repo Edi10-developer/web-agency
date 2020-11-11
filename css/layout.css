@@ -480,6 +480,7 @@ fieldset[disabled] .btn-theme {
   background: url(../img/1920x1080/03.jpg) no-repeat;
   background-size: cover;
   background-position: center center;
+  color: white;
 }
 
 .footer .footer-seperator {
@@ -1559,4 +1560,31 @@ fieldset[disabled] .btn-theme {
 
 .height-400 {
   height: 400px !important;
+}
+
+/*--------------------------------------------------
+   ************* [CUSTOMED BY EDI] **********
+----------------------------------------------------*/
+.brand_name, .brand_name-main{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: line-through;
+  font-style: italic;
+  color:rgb(19, 14, 99);
+  letter-spacing: 2px;
+  font-size: 22px;;
+}
+
+.brand_name-main{
+  color: rgb(253, 255, 255);
+}
+
+.text-white{
+  color: white;
+}
+
+.font-reg{
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
 }

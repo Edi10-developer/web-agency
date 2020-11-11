@@ -12,6 +12,7 @@
 /* Navbar */
 .header {
 	.navbar {
+        background-color: red !important;
 		margin-bottom: 0;
         border-bottom: 1px solid rgba(255,255,255,.2);
         @include cubic-transition($delay: 0, $duration: 300ms, $property: (all));
