@@ -1610,6 +1610,12 @@ fieldset[disabled] .btn-theme {
   border: 19px solid rgba(253, 253, 253, 0.3);
 }
 
+#description_div h2 span{
+  font-size: 27px;
+  font-weight: bold;
+  letter-spacing: -8px;
+}
+
 @media(max-width: 991px){
   #description_div{
     width: 100%;

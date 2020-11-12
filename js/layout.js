@@ -88,13 +88,13 @@ var Layout = function () {
 
 // Gradient Generator
 var colors = new Array(
-    [255,0,0],
+    [255,200,0],
     [255,255,0],
     [255,216,219],
     [255,255,255],
     [0,0,255],
     [0,255,255],
-    [0,0,0]);
+    [0,0,0, .6]);
   
   var step = 0;
   //color table indices for: 
