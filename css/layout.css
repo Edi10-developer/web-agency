@@ -1607,7 +1607,7 @@ fieldset[disabled] .btn-theme {
   padding: 40px;
   margin: 0px;
   color: white !important;
-  border: 9px solid rgba(253, 253, 253, 0.3);
+  border: 19px solid rgba(253, 253, 253, 0.3);
 }
 
 @media(max-width: 991px){

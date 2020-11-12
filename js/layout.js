@@ -90,6 +90,7 @@ var Layout = function () {
 var colors = new Array(
     [255,0,0],
     [255,255,0],
+    [255,216,219],
     [255,255,255],
     [0,0,255],
     [0,255,255],
@@ -143,7 +144,7 @@ var colors = new Array(
     }
   }
   
-  setInterval(updateGradient,50);
+  setInterval(updateGradient,80);
 
 $(document).ready(function() {
     Layout.init();
