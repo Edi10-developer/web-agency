@@ -508,7 +508,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .footer .footer-input {
-  background: rgba(0, 0, 0, 0.15);
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .footer .footer-logo {
@@ -913,7 +913,7 @@ fieldset[disabled] .btn-theme {
   height: 50px;
   font-size: 14px;
   font-weight: 400;
-  color: #a6a7aa;
+  color: white;
   background: #fafafa;
   border: none;
   box-shadow: none;
@@ -926,7 +926,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .form-control:-ms-input-placeholder {
-  color: #a6a7aa;
+  color: #ccc;
 }
 
 .form-control::-webkit-input-placeholder {
@@ -1604,14 +1604,20 @@ fieldset[disabled] .btn-theme {
 #description_div{
   width: 50%;
   height: 100%;
-  padding: 40px;
+  padding: 3%;
   margin: 0px;
   color: white !important;
-  border: 19px solid rgba(253, 253, 253, 0.3);
+  border: 9px solid rgba(253, 253, 253, 0.3);
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+#description_div h2{
+  font-size: 26px;
 }
 
 #description_div h2 span{
-  font-size: 27px;
+  font-size: 26px;
   font-weight: bold;
   letter-spacing: -8px;
 }
