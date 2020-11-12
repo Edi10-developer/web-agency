@@ -219,6 +219,9 @@ h4 {
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  background-color:white !important;
+  color: black !important;
+  font-weight: 800 !important;
 }
 
 .btn-theme:hover, .btn-theme:focus, .btn-theme.focus {
@@ -1587,4 +1590,40 @@ fieldset[disabled] .btn-theme {
   text-transform: uppercase;
   font-weight: 900;
   letter-spacing: 2px;
+}
+
+/*
+     BTN
+*/
+.btn-custom{
+  background-color: rgba(0, 0, 0, .6) !important;
+}
+
+
+/* Gradient Generator */
+#description_div{
+  width: 50%;
+  height: 100%;
+  padding: 40px;
+  margin: 0px;
+  color: white !important;
+  border: 9px solid rgba(253, 253, 253, 0.3);
+}
+
+@media(max-width: 991px){
+  #description_div{
+    width: 100%;
+    margin: 0px auto;
+  }
+}
+
+#description_div h2{
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50% !important;
 }
