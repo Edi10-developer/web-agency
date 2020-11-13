@@ -793,6 +793,10 @@ fieldset[disabled] .btn-theme {
   .header .navbar-nav-right {
     float: right;
   }
+  .footer{
+    display: block !important;
+    margin-bottom: 20px !important;
+  }
 }
 
 /* Page On Scroll */
@@ -1645,3 +1649,7 @@ fieldset[disabled] .btn-theme {
   margin-right: auto;
   width: 50% !important;
 }
+
+/*--------------------------------------------------
+    [Cookies Popup]
+----------------------------------------------------*/
