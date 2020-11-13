@@ -824,6 +824,10 @@ fieldset[disabled] .btn-theme {
   }
 }
 
+.item img{
+  background-color: red !important;
+}
+
 /*------------------------------------------------------------------
   	[Contact]
 ------------------------------------------------------------------*/
@@ -1288,6 +1292,12 @@ fieldset[disabled] .btn-theme {
   clear: both;
 }
 
+.container:first-of-type p{
+  color: white;
+  font-weight: 900;
+  font-size: large;
+}
+
 /*------------------------------------------------------------------
     [Overflow]
 ------------------------------------------------------------------*/
@@ -1619,7 +1629,7 @@ fieldset[disabled] .btn-theme {
 #description_div h2 span{
   font-size: 26px;
   font-weight: bold;
-  letter-spacing: -8px;
+  letter-spacing: -6px;
 }
 
 @media(max-width: 991px){
